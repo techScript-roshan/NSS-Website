@@ -57,3 +57,44 @@ font-family: 'Roboto Slab', serif;
 .carousel-item > img{
     max-height: 550px;
 }
+.sec-spacing{
+  padding: 80px;
+}
+.title{
+  font-size: 28px;
+  font-family: "Roboto Slab", serif;
+  color: var(--black-light);
+}
+.desc{
+  font-size: 16px;
+  font-family: 'Noto Serif', serif;
+  text-align: center;
+  color: var(--black-light);
+  margin: 7px 0;
+  padding: 7px 0;
+}
+.highlight{
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+.why > p{
+  font-size: 16px;
+  font-family: 'Noto Serif', serif;
+  text-align: justify;
+}
+.title-dec-spacing{
+  padding: 0 50px;
+}
+
+.statics{
+  background-color: var(--secondary-white);
+  display: grid;
+  gap: 50px;
+}
+.card > img{
+  overflow: auto;
+}
+.card-text{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 500;
+}
