@@ -1,21 +1,20 @@
 /* GOOGLE FONTS  */
-  @import url('https://fonts.googleapis.com/css2?family=Alice&family=Inter:wght@300;400;500;600&family=Kalam:wght@300;400&family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600&family=Noto+Serif:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Roboto+Slab:wght@300;400;500;600&family=Roboto:wght@300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alice&family=Inter:wght@300;400;500;600&family=Kalam:wght@300;400&family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600&family=Noto+Serif:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Roboto+Slab:wght@300;400;500;600&family=Roboto:wght@300;400;500;700&display=swap");
 
+body{
+  font-size: 16px;
+}
 
+:root {
+  --primary-color: #521e86;
+  /* --secondary-color : #; */
+  --white-color: #ffffff;
+  --secondary-white: #ededed;
+  --black-color: #000000;
+  --black-light: #242424;
+  --secondary-black: #343434;
+}
 
-  :root{
-    --primary-color : #521E86;
-    /* --secondary-color : #; */
-    --white-color: #ffffff;
-    --secondary-white: #EDEDED;
-    --black-color: #000000;
-    --black-light: #242424;
-    --secondary-black: #343434;
-
-  }
-  
-  
-  
 /*
 font-family: 'Alice', serif;
 font-family: 'Inter', sans-serif;
@@ -48,53 +47,83 @@ font-family: 'Roboto Slab', serif;
 .nav-item a {
   font-family: "Roboto Slab", serif;
 }
-.active{
-    font-weight: 600 !important;
-    color: var(--primary-color) !important;
+.active {
+  font-weight: 600 !important;
+  color: var(--primary-color) !important;
 }
 
 /* SLIDER  */
-.carousel-item > img{
-    max-height: 550px;
+.carousel-item > img {
+  max-height: 550px;
 }
-.sec-spacing{
+.sec-spacing {
   padding: 80px;
 }
-.title{
+.title {
   font-size: 28px;
   font-family: "Roboto Slab", serif;
   color: var(--black-light);
 }
-.desc{
+.desc {
   font-size: 16px;
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
   text-align: center;
   color: var(--black-light);
   margin: 7px 0;
   padding: 7px 0;
 }
-.highlight{
+.highlight {
   color: var(--primary-color);
   text-decoration: underline;
 }
-.why > p{
+.why > p {
   font-size: 16px;
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
   text-align: justify;
 }
-.title-dec-spacing{
+.title-dec-spacing {
   padding: 0 50px;
 }
 
-.statics{
+.statics {
   background-color: var(--secondary-white);
   display: grid;
   gap: 50px;
 }
-.card > img{
+.card > img {
   overflow: auto;
+  height: 100%;
+  width: 100%;
+
+  object-fit: cover;
 }
-.card-text{
-  font-family: 'Noto Sans', sans-serif;
+.card-text {
+  font-family: "Noto Sans", sans-serif;
   font-weight: 500;
+}
+.rapper {
+  padding: 10px 0;
+  width: 160px;
+  text-align: center;
+}
+.static_logo {
+  font-size: 30px;
+}
+.static_data {
+  margin: 10px 0;
+}
+.static_data > p {
+  margin: 0;
+  font-size: 1.375rem;
+  font-weight: 600;
+  color: blue;
+  font-family: "Roboto Slab";
+}
+.static_data_desc {
+  margin: 10px 0;
+}
+.static_data_desc > p {
+  margin: 0;
+  font-size: 1rem;
+  font-family: "Roboto Slab", sans-serif;
 }
