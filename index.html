@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
   <!-- custom CSS  -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="stylesheet/style.css">
   <!-- BOOSTRAP CSS  -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -42,16 +42,16 @@
             <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/team.html">Team</a>
+            <a class="nav-link" href="Pages/team.html">Team</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/event.html">Event</a>
+            <a class="nav-link" href="Pages/event.html">Event</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/contact.html">Contact Us</a>
+            <a class="nav-link" href="Pages/contact.html">Contact Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/contribution.html">Contribution</a>
+            <a class="nav-link" href="Pages/join">Join</a>
           </li>
         </ul>
       </div>
@@ -60,25 +60,53 @@
 
 
   <!-- SLIDER  -->
-  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+    </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="Resources//Anand Utsav Celebration (16).jpg" class="d-block w-100" alt="...">
+        <div class="overlay"></div>
+        <div class="carousel-caption d-none d-md-block">
+          <!-- <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p> -->
+        </div>
       </div>
       <div class="carousel-item">
-        <img src="Resources/Anand Utsav Celebration (16).jpg" class="d-block w-100" alt="...">
+        <div class="overlay"></div>
+        <div class="carousel-caption d-none d-md-block">
+          <!-- <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p> -->
+        </div>
       </div>
       <div class="carousel-item">
-        <img src="Resources//Anand Utsav Celebration (16).jpg" class="d-block w-100" alt="...">
+        <div class="overlay"></div>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Game Fest 2023</h5>
+          <p>We have organize offile game on Anand Utsav 2023.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="overlay"></div>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Our Special Guest on Anand Utsav</h5>
+          <p>Main guest of Anand Utsav 2023.</p>
+        </div>
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-      data-bs-slide="prev">
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-      data-bs-slide="next">
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
@@ -326,9 +354,9 @@
       <!-- Brand 1  -->
       <div class="brand">
         <div class="brand_img">
-          <img src="Resources/NDRF_Logo png.png" alt="">
+          <img src="Resources/geek bees logo.png" alt="">
         </div>
-        <p class="brand_name">National Disaster Response Force (NDRF)</p>
+        <p class="brand_name">GEEK BEES</p>
       </div>
 
       <!-- Brand 2  -->
@@ -444,11 +472,14 @@
         </h2>
         <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin
-            adds the appropriate classes that we use to style each element. These classes control the overall
-            appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
-            CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
-            <code>.accordion-body</code>, though the transition does limit overflow.
+            <strong>There are many different activities that you can participate in as part of the NSS. </strong>
+            <ul>
+              <li>Educational trips</li>
+              <li>Blood donation camps</li>
+              <li>Tree plantation drives</li>
+              <li>Educational workshops</li>
+              <li>Social awareness campaigns</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -463,11 +494,14 @@
         </h2>
         <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin
-            adds the appropriate classes that we use to style each element. These classes control the overall
-            appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
-            CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
-            <code>.accordion-body</code>, though the transition does limit overflow.
+            <strong>There are many career opportunities for NSS volunteers.</strong>
+            <ul>
+              <li>Government jobs</li>
+              <li>Non-profit organizations</li>
+              <li>Social enterprises</li>
+              <li>Corporate social responsibility (CSR) departments</li>
+              <li>Educational institutions</li>
+            </ul>
           </div>
         </div>
       </div>
