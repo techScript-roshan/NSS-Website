@@ -1,8 +1,12 @@
-.team,.faculty_advisor {
+@import url(../../stylesheet/style.css);
+
+.team,
+.faculty_advisor {
   margin-top: 3rem;
 }
-.team > h2 > span , .faculty_advisor h3 > span{
-  border-bottom: 3px solid black;
+.team > h2 > span,
+.faculty_advisor h3 > span {
+  border-bottom: 3px solid rgb(var(--primary-color));
 }
 .team > p {
   margin-top: 2rem;
@@ -10,15 +14,26 @@
   width: 50%;
   font-family: "Noto serif", sans-serif;
 }
-.faculty_advisor{
-    margin-bottom: 2rem;
+.faculty_advisor {
+  margin-bottom: 2rem;
 }
-.faculty_advisor .image1{
-    width: 200px;
-    /* height: 200px; */
+.faculty_advisor .image1 {
+  width: 200px;
+  /* height: 200px; */
 }
-.faculty_advisor .image1 img{
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
+.faculty_advisor .image1 img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.faculties {
+  gap: 50px;
+}
+.faculty_name {
+  margin-top: 10px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.top_order {
+  gap: 200px;
 }
