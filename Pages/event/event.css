@@ -1,0 +1,38 @@
+@import url(../../stylesheet/style.css);
+
+.carousel-item {
+  height: 600px;
+}
+.event_statics {
+  width: 600px;
+  margin: 0 auto;
+  padding: 30px 10px;
+  background-color: rgb(var(--primary-color));
+  color: white;
+  border-radius: 8px;
+  margin-top: -45px;
+  z-index: 999;
+  position: relative;
+
+  .stats {
+    width: 33%;
+    .data {
+      font-size: 1.5rem;
+      font-weight: 600;
+      font-family: "Roboto", sans-serif;
+    }
+    .event_desc {
+      font-size: 0.9rem;
+      font-weight: 400;
+      font-family: "Noto serif", sans-serif;
+      color: var(--secondary-white);
+      margin-bottom: 5px;
+    }
+  }
+}
+.recent_events h2 span {
+  border-bottom: 3px solid rgb(var(--primary-color));
+}
+.event_img{
+    height: 300px !important;
+}

@@ -1,10 +1,12 @@
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Event</title>
-    <!-- custom CSS  -->
-    <link rel="stylesheet" href="../../stylesheet/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event</title>
+  <!-- custom CSS  -->
+  <link rel="stylesheet" href="../../stylesheet/style.css">
+  <link rel="stylesheet" href="event.css">
   <!-- BOOSTRAP CSS  -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -14,8 +16,9 @@
   <!-- Fontawesome Icon  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
+
 <body>
-     <!-- NAVBAR -->
+  <!-- NAVBAR -->
 
   <nav class="navbar navbar-expand-lg bg-body-tertiary doc-padding">
     <div class="container-fluid d-flex">
@@ -50,5 +53,143 @@
       </div>
     </div>
   </nav>
+
+  <!-- SLIDER  -->
+
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="overlay"></div>
+        <div class="carousel-caption d-none d-md-block">
+          <!-- <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p> -->
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="overlay"></div>
+        <div class="carousel-caption d-none d-md-block">
+          <!-- <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p> -->
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="overlay"></div>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Game Fest 2023</h5>
+          <p>We have organize offile game on Anand Utsav 2023.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="overlay"></div>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Our Special Guest on Anand Utsav</h5>
+          <p>Main guest of Anand Utsav 2023.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- EVENT STATICS -->
+  <div class="event_statics d-flex">
+    <div class="total_events stats d-grid text-center">
+      <div class="data">300+</div>
+      <p class="event_desc">Total Events</p>
+    </div>
+    <div class="prev_events stats d-grid text-center">
+      <div class="data">30+</div>
+      <p class="event_desc">Last Year</p>
+    </div>
+    <div class="current_events stats d-grid text-center">
+      <div class="data">35+</div>
+      <p class="event_desc">Current Year</p>
+    </div>
+  </div>
+
+  <!-- RECENT EVENTS  -->
+  <div class="recent_events container mt-4">
+    <h2>Recent <span>Events</span></h2>
+    <div class="card mb-3" style="margin: 2rem 0;">
+      <div class="row g-0">
+        <div class="col-md-3">
+          <img src="/Resources/flyer_sample.jfif" class="img-fluid event_img rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="margin: 2rem 0;">
+      <div class="row g-0">
+        <div class="col-md-3">
+          <img src="/Resources/flyer_sample.jfif" class="img-fluid event_img rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="margin: 2rem 0;">
+      <div class="row g-0">
+        <div class="col-md-3">
+          <img src="/Resources/flyer_sample.jfif" class="img-fluid event_img rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- Custom JS  -->
+  <script src="main.js"></script>
+
+  <!-- Swiper JS  -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+  <!-- Bootstrap JS  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+
 </body>
+
 </html>
