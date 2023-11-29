@@ -33,6 +33,29 @@
 .recent_events h2 span {
   border-bottom: 3px solid rgb(var(--primary-color));
 }
-.event_img{
-    height: 300px !important;
+.event_img {
+  height: 250px !important;
 }
+.card-text {
+  font-weight: 400;
+}
+.card-body button,
+.load_moreBtn button {
+  background-color: rgb(var(--primary-color));
+  border-color: rgb(var(--primary-color));
+}
+.card-body button:hover,
+.load_moreBtn button:hover {
+  background-color: rgba(var(--primary-color), 0.9);
+}
+.recent_events .card {
+  display: none;
+}
+
+.recent_events .card:nth-child(1),
+.recent_events .card:nth-child(2),
+.recent_events .card:nth-child(3),
+.recent_events .card:nth-child(4) {
+  display: block;
+}
+
