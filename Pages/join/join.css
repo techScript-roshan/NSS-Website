@@ -1,0 +1,23 @@
+.navbar {
+  background-color: rgb(var(--primary-color));
+
+  .navbar-brand {
+    color: var(--white-color);
+  }
+  .nav-link {
+    color: var(--white-color);
+  }
+  .active_nav {
+    color: yellow !important;
+  }
+}
+.top_section {
+  height: 220px;
+  /* color: white; */
+  padding-top: 55px;
+
+  .container p {
+    font-family: "Noto serif", serif;
+    width: 40%;
+  }
+}
