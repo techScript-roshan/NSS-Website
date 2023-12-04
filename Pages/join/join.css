@@ -7,9 +7,6 @@
   .nav-link {
     color: var(--white-color);
   }
-  .active_nav {
-    color: yellow !important;
-  }
 }
 .top_section {
   height: 220px;
