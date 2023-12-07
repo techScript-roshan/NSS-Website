@@ -1,4 +1,5 @@
 let load_more = document.getElementById("load-more");
+let = document.getElementById("#logo");
 
 let currentItem = 3;
 function loadMoreBtn() {
@@ -12,4 +13,9 @@ function loadMoreBtn() {
   if (currentItem >= boxes.length) {
     load_more.style.display = "none";
   }
+}
+
+function home() {
+  window.location.href = "/";
+
 }
