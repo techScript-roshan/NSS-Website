@@ -58,4 +58,8 @@
 .recent_events .card:nth-child(4) {
   display: block;
 }
-
+.form-select:focus {
+  border-color: rgb(var(--primary-color)) !important;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(82, 30, 133, 0.25) !important;
+}
