@@ -22,3 +22,14 @@ function loadMoreBtn_2023() {
 function home() {
   window.location.href = "/";
 }
+
+// JQUERY CODE for POPUP image
+$(document).ready(function () {
+  $(".gallery_img").magnificPopup({
+    type: "image",
+    delegate: "a",
+    gallery: {
+      enabled: true,
+    },
+  });
+});
