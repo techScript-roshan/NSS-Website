@@ -1,0 +1,48 @@
+.details {
+  width: 50%;
+
+  .desc_title {
+    font-size: 1.2rem;
+  }
+  .desc {
+    text-align: justify;
+  }
+}
+
+.alert-primary {
+  --bs-alert-color: rgb(82 30 130) !important;
+  --bs-alert-bg: rgb(241 241 241) !important;
+}
+
+.event_name {
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-family: "Noto serif";
+}
+.image_gallery {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.gallery_img {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 30px;
+}
+.gallery_img img {
+  width: 100%;
+  transition: 0.5s;
+  border-radius: 6px;
+}
+.gallery_img img:hover {
+  transform: scale(1.1);
+}
+.breadcrumb-item a {
+  color: rgb(var(--primary-color)) !important;
+}
+
+/* To Control height of POPup image of magnific CDN */
+.mfp-img {
+  max-height: 100vh !important;
+}
