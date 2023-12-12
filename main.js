@@ -18,6 +18,21 @@ function loadMoreBtn_2023() {
     load_more.style.display = "none";
   }
 }
+function loadMoreBtn_2022() {
+  let boxes = [
+    ...document.querySelectorAll(".recent_events .event_2022 .card"),
+  ];
+  for (var i = currentItem_2023; i < currentItem_2023 + 2; i++) {
+    if (currentItem_2023 <= boxes.length) {
+      boxes[i].style.display = "block";
+    }
+  }
+  currentItem_2023 += 2;
+  // Hiding load more button after showing all the events.
+  if (currentItem_2023 >= boxes.length) {
+    load_more.style.display = "none";
+  }
+}
 
 function home() {
   window.location.href = "/";
