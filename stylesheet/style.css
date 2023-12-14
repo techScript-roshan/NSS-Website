@@ -38,7 +38,7 @@ font-family: 'Roboto Slab', serif;
   padding: 0 1.5rem !important;
   color: var(--white-color) !important;
 }
-#logo{
+#logo {
   cursor: pointer;
 }
 .logo > img {
@@ -215,7 +215,8 @@ font-family: 'Roboto Slab', serif;
   text-align: left;
 }
 .amitoj {
-  background: no-repeat center center/100% url("/Resources/Amitoj\ Singh_cropped.jpg");
+  background: no-repeat center center/100%
+    url("/Resources/Amitoj\ Singh_cropped.jpg");
 }
 .kshitiz {
   background: no-repeat top center/60% url("/Resources/kshitiz\ kr.jpg");
@@ -450,4 +451,14 @@ font-family: 'Roboto Slab', serif;
 .copyright > p {
   cursor: auto;
   text-align: center;
+}
+.copyright p:nth-child(1) {
+  margin-bottom: 5px;
+}
+.copyright p:nth-child(2) {
+  font-size: 13px;
+}
+.copyright p:nth-child(2) a {
+  font-family: "Noto Sans", sans-serif;
+  text-decoration: underline;
 }
