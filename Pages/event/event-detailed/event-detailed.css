@@ -46,3 +46,12 @@
 .mfp-img {
   max-height: 100vh !important;
 }
+
+.details .desc br {
+  /* margin: 15px 0; */
+  line-height: 15px;
+}
+.table-heading {
+  color: rgb(var(--primary-color));
+}
+
