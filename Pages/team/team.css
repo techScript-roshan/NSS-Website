@@ -35,5 +35,8 @@
   margin-bottom: 5px;
 }
 .top_order {
-  gap: 200px;
+  gap: 100px;
+}
+.container .branch{
+  margin-bottom: 0 !important;
 }
