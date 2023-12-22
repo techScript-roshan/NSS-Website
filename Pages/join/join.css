@@ -10,11 +10,18 @@
 }
 .top_section {
   height: 220px;
-  /* color: white; */
   padding-top: 55px;
 
   .container p {
     font-family: "Noto serif", serif;
     width: 40%;
   }
+  
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .top_section .container p {
+    width: 50%;
+  }
+  
 }
