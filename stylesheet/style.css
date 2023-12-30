@@ -64,6 +64,9 @@ font-family: 'Roboto Slab', serif;
 .navbar {
   background-color: rgb(var(--primary-color));
 }
+.navbar-nav{
+  width: 100%;
+}
 .navbar-brand {
   color: var(--secondary-white) !important;
 }
@@ -470,8 +473,8 @@ font-family: 'Roboto Slab', serif;
 /* NAVBAR TESTING  START */
 
 .navbar ul {
-  display: flex;
-  gap: 2rem;
+  /* display: flex; */
+  /* gap: 2rem; */
 }
 /* .navbar ul li {
   background-color: var(--surface-primary);
@@ -522,7 +525,9 @@ font-family: 'Roboto Slab', serif;
 
 /* TESTING  END */
 
-@media screen and (min-width: 1201px) {
+@media (min-width: 1201px) {
+
+  
   .guest_detail {
     width: 220px;
   }
@@ -530,11 +535,10 @@ font-family: 'Roboto Slab', serif;
     height: 230px;
   }
 
-  .footer_body {
-  }
+  
 }
 
-@media screen and (min-width: 993px) and (max-width: 1200px) {
+@media (min-width: 993px) and (max-width: 1200px) {
   .footer {
     padding: 80px 70px;
   }
