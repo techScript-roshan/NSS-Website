@@ -254,13 +254,16 @@ font-family: 'Roboto Slab', serif;
   overflow: hidden;
   margin-bottom: 15px !important;
   box-shadow: 4px 8px 12px #a3a3a3;
+  transition: transform 1s;
 }
-.guest_img {
+.guest_img:hover {
+  transform: scale(1.05);
 }
 .guest_img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transform: scale(1.2);
 }
 
 /* COLLOBORATORS  */
@@ -282,12 +285,17 @@ font-family: 'Roboto Slab', serif;
   width: 120px;
   height: 150px;
   margin-bottom: 0.5rem;
+  transition: transform 1s;
 }
-.brand_img > img {
+.brand_img:hover {
+  transform: scale(1.1);
+}
+.brand_img a img {
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
+
 .brand_name {
   text-align: center;
 }
@@ -304,7 +312,6 @@ font-family: 'Roboto Slab', serif;
   width: 250px;
   height: 1px;
   background-color: #848484;
-  /* text-align: center; */
   margin: 10px 16px;
   border-radius: 10px;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
@@ -527,5 +534,4 @@ font-family: 'Roboto Slab', serif;
 }
 
 @media (max-width: 575px) {
-  
 }
