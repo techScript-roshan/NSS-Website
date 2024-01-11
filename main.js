@@ -42,15 +42,15 @@ function home() {
 }
 
 // JQUERY CODE for POPUP image
-// $(document).ready(function () {
-//   $(".gallery_img").magnificPopup({
-//     type: "image",
-//     delegate: "a",
-//     gallery: {
-//       enabled: true,
-//     },
-//   });
-// });
+$(document).ready(function () {
+  $(".gallery_img").magnificPopup({
+    type: "image",
+    delegate: "a",
+    gallery: {
+      enabled: true,
+    },
+  });
+});
 
 // NAVBAR Responsive
 
