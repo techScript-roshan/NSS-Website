@@ -17,6 +17,9 @@
 .faculty_advisor {
   margin-bottom: 2rem;
 }
+.faculty_advisor h4{
+  text-decoration: underline;
+}
 .faculty_advisor .image1 {
   width: 160px;
 }
@@ -38,6 +41,7 @@
   object-fit: cover;
   border-radius: 50% !important;
   background-color: #d4d4d4;
+  box-shadow: 5px 5px 25px 5px rgba(var(--primary-color),0.5) inset;
 }
 
 .faculty_name {
@@ -50,4 +54,7 @@
 }
 .container .branch {
   margin-bottom: 0 !important;
+}
+.adjust_position{
+  object-fit: contain !important;
 }
