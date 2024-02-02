@@ -1,38 +1,56 @@
 let load_more2022 = document.getElementById("load-more2022");
 let load_more2023 = document.getElementById("load-more2023");
+let load_more2024 = document.getElementById("load-more2024");
 let = document.getElementById("#logo");
 
 // Loding More event by clicking on button for 2023 events
-let currentItem_2023 = 4;
+let currentItem = 4;
+function loadMoreBtn_2024() {
+  let boxes = [
+    ...document.querySelectorAll(".recent_events .event_2024 .card"),
+  ];
+  for (var i = currentItem; i < currentItem + 2; i++) {
+    if (currentItem <= boxes.length) {
+      boxes[i].style.display = "block";
+    }
+    console.log(currentItem);
+  }
+  currentItem += 2;
+  // Hiding load more button after showing all the events.
+  if (currentItem >= boxes.length) {
+    load_more2024.style.display = "none";
+  }
+}
+// Loding More event by clicking on button for 2023 events
 function loadMoreBtn_2023() {
   let boxes = [
     ...document.querySelectorAll(".recent_events .event_2023 .card"),
   ];
-  for (var i = currentItem_2023; i < currentItem_2023 + 2; i++) {
-    if (currentItem_2023 <= boxes.length) {
+  for (var i = currentItem; i < currentItem + 2; i++) {
+    if (currentItem <= boxes.length) {
       boxes[i].style.display = "block";
     }
-    console.log(currentItem_2023);
+    console.log(currentItem);
   }
-  currentItem_2023 += 2;
+  currentItem += 2;
   // Hiding load more button after showing all the events.
-  if (currentItem_2023 >= boxes.length) {
+  if (currentItem >= boxes.length) {
     load_more2023.style.display = "none";
   }
 }
-let currentItem_2022 = 4;
+// Loding More event by clicking on button for 2022 events
 function loadMoreBtn_2022() {
   let boxes = [
     ...document.querySelectorAll(".recent_events .event_2022 .card"),
   ];
-  for (var i = currentItem_2022; i < currentItem_2022 + 2; i++) {
-    if (currentItem_2022 <= boxes.length) {
+  for (var i = currentItem; i < currentItem + 2; i++) {
+    if (currentItem <= boxes.length) {
       boxes[i].style.display = "block";
     }
   }
-  currentItem_2022 += 2;
+  currentItem += 2;
   // Hiding load more button after showing all the events.
-  if (currentItem_2022 >= boxes.length) {
+  if (currentItem >= boxes.length) {
     load_more2022.style.display = "none";
   }
 }
