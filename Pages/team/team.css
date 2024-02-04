@@ -1,14 +1,19 @@
 @import url(../../stylesheet/style.css);
 
+.team_body {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
 .team,
 .faculty_advisor {
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 .team > h2 > span,
 .faculty_advisor h3 > span {
   border-bottom: 3px solid rgb(var(--primary-color));
 }
-.team > p {
+.team_desc {
   margin-top: 2rem;
   text-align: justify;
   width: 50%;
@@ -17,7 +22,7 @@
 .faculty_advisor {
   margin-bottom: 2rem;
 }
-.faculty_advisor h4{
+.faculty_advisor h4 {
   text-decoration: underline;
 }
 .faculty_advisor .image1 {
@@ -32,7 +37,6 @@
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   column-gap: 50px;
   row-gap: 15px;
-
 }
 
 .faculty_advisor .image1 .img img {
@@ -41,7 +45,7 @@
   object-fit: cover;
   border-radius: 50% !important;
   background-color: #d4d4d4;
-  box-shadow: 5px 5px 25px 5px rgba(var(--primary-color),0.5) inset;
+  box-shadow: 5px 5px 25px 5px rgba(var(--primary-color), 0.5) inset;
 }
 
 .faculty_name {
@@ -55,6 +59,27 @@
 .container .branch {
   margin-bottom: 0 !important;
 }
-.adjust_position{
+.adjust_position {
   object-fit: contain !important;
+}
+.programme_officer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 50%;
+}
+.programme_officer .image1 {
+  width: 180px;
+}
+.programme_officer .image1 .img {
+  width: 160px;
+  height: 160px;
+}
+.programme_officer .image1 .img img{
+  border-radius: 5% !important;
+}
+.programme_officer .image1 .col-12 {
+  color: #212529;
+  font-family: "Roboto Slab", SANS-SERIF;
+  font-size: 15px;
 }
