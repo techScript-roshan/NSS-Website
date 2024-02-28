@@ -129,7 +129,6 @@ font-family: 'Roboto Slab', serif;
 }
 
 .statics {
-  background-color: var(--secondary-white);
   display: grid;
   gap: 70px;
 }
@@ -180,8 +179,7 @@ font-family: 'Roboto Slab', serif;
 }
 /* OUR CORE MEMBERS  */
 .guest,
-.faq,
-.footer {
+.faq,.why {
   background-color: var(--secondary-white);
 }
 .members {
@@ -219,18 +217,20 @@ font-family: 'Roboto Slab', serif;
 }
 .amitoj {
   background: no-repeat center/100%
-    url("/Resources/Profile\ img/Amitoj_Singh_without_bg.png");
-  background-color: white;
+    url("/Resources/Profile\ img/Amitoj_Singh.png");
+  background-color: #d4d4d4;
+  box-shadow: 5px 5px 25px 5px rgba(var(--primary-color), 0.5) inset;
 }
 .kshitiz {
-  background: no-repeat center/90%
-    url("/Resources/Profile\ img/kshitiz_kr_without_bg.png");
-  background-color: white;
+  background: no-repeat center/90% url("/Resources/Profile\ img/kshitiz_kr.png");
+  background-color: #d4d4d4;
+  box-shadow: 5px 5px 25px 5px rgba(var(--primary-color), 0.5) inset;
 }
 .nabeel {
   background: no-repeat center center/100%
-    url("/Resources/Profile\ img/Nabeel_Farooqui_without_bg.png");
-  background-color: white;
+    url("/Resources/Profile\ img/Nabeel_Farooqui.png");
+  background-color: #d4d4d4;
+  box-shadow: 5px 5px 25px 5px rgba(var(--primary-color), 0.5) inset;
 }
 .member div:nth-child(1) {
   filter: drop-shadow(2px 1px 5px #a3a3a3);
@@ -331,7 +331,7 @@ font-family: 'Roboto Slab', serif;
   width: 100%;
 }
 .accordion-item {
-  width: 70% !important;
+  width: 80% !important;
   margin: 1rem auto;
   border-radius: 4px !important;
   box-shadow: 1px 3px 5px rgba(var(--primary-color), 0.3);
@@ -367,7 +367,7 @@ font-family: 'Roboto Slab', serif;
 }
 .footer_body {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: start;
 }
 .map {
@@ -499,8 +499,19 @@ font-family: 'Roboto Slab', serif;
 
 @media (min-width: 992px) and (max-width: 1200px) {
   .sec-spacing {
-    padding: 80px 70px;
+    padding: 80px 60px;
   }
+  .static_logo {
+    font-size: 28px;
+  }
+  .static_data > p {
+    font-size: 1.4rem;
+  }
+  .member_img > img {
+    width: 130px;
+    height: 130px;
+  }
+
   .footer .map iframe {
     width: 250px;
     height: 250px;
